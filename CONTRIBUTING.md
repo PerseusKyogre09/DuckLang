@@ -9,8 +9,10 @@ Thank you for your interest in contributing to this project! We welcome contribu
     Click the Fork button at the top-right of this repository.
 
     This creates a copy of the repository under your GitHub account.
+   ![image](https://github.com/user-attachments/assets/f79fff7c-0c22-475c-80b6-581b4fabe66c)
 
-2. **Clone Your Fork**
+
+3. **Clone Your Fork**
 
     Clone the forked repository to your local machine:
 
@@ -24,7 +26,7 @@ Thank you for your interest in contributing to this project! We welcome contribu
     cd DuckLang
     ```
 
-3. **Create a New Branch**
+4. **Create a New Branch**
 
     Create a branch for your changes:
 
@@ -34,7 +36,7 @@ Thank you for your interest in contributing to this project! We welcome contribu
 
     Use a descriptive name related to the feature or bug you are addressing.
 
-4. **Make Your Changes**
+5. **Make Your Changes**
 
     Implement your feature, fix a bug, or improve documentation.
 
@@ -42,7 +44,7 @@ Thank you for your interest in contributing to this project! We welcome contribu
 
     Test your changes before committing.
 
-5. **Commit Your Changes**
+6. **Commit Your Changes**
 
     Stage your changes:
 
@@ -56,7 +58,7 @@ Thank you for your interest in contributing to this project! We welcome contribu
     git commit -m "Add feature/fix bug: Brief description"
     ```
 
-6. **Push to Your Fork**
+7. **Push to Your Fork**
 
     Push the changes to your forked repository:
 
@@ -64,7 +66,7 @@ Thank you for your interest in contributing to this project! We welcome contribu
     git push origin feature-branch-name
     ```
 
-7. **Submit a Pull Request**
+8. **Submit a Pull Request**
 
     Go to the original repository on GitHub.
 
