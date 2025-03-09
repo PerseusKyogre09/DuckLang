@@ -11,8 +11,7 @@ Thank you for your interest in contributing to this project! We welcome contribu
     This creates a copy of the repository under your GitHub account.
    ![image](https://github.com/user-attachments/assets/f79fff7c-0c22-475c-80b6-581b4fabe66c)
 
-
-3. **Clone Your Fork**
+2. **Clone Your Fork**
 
     Clone the forked repository to your local machine:
 
@@ -26,7 +25,7 @@ Thank you for your interest in contributing to this project! We welcome contribu
     cd DuckLang
     ```
 
-4. **Create a New Branch**
+3. **Create a New Branch**
 
     Create a branch for your changes:
 
@@ -36,7 +35,7 @@ Thank you for your interest in contributing to this project! We welcome contribu
 
     Use a descriptive name related to the feature or bug you are addressing.
 
-5. **Make Your Changes**
+4. **Make Your Changes**
 
     Implement your feature, fix a bug, or improve documentation.
 
@@ -44,7 +43,7 @@ Thank you for your interest in contributing to this project! We welcome contribu
 
     Test your changes before committing.
 
-6. **Commit Your Changes**
+5. **Commit Your Changes**
 
     Stage your changes:
 
@@ -58,7 +57,7 @@ Thank you for your interest in contributing to this project! We welcome contribu
     git commit -m "Add feature/fix bug: Brief description"
     ```
 
-7. **Push to Your Fork**
+6. **Push to Your Fork**
 
     Push the changes to your forked repository:
 
@@ -66,7 +65,7 @@ Thank you for your interest in contributing to this project! We welcome contribu
     git push origin feature-branch-name
     ```
 
-8. **Submit a Pull Request**
+7. **Submit a Pull Request**
 
     Go to the original repository on GitHub.
 
@@ -74,9 +73,68 @@ Thank you for your interest in contributing to this project! We welcome contribu
 
     Select your fork and branch, then compare with the base repository.
 
+    Ensure you are making the pull request to the `dev` branch, not `master`.
+
     Add a meaningful title and description.
 
     Click Create Pull Request.
+
+## Starting the Project
+
+To start the project locally, follow these steps:
+
+1. **Change Permission 🛃**
+
+    ```sh
+    chmod +x setup.sh
+    ```
+
+2. **Set Up The Project 🟰**
+
+    ```sh
+    ./setup.sh
+    ```
+
+3. **Start The Project 🚀**
+
+    ```sh
+    python main.py
+    ```
+
+## Directory Structure
+
+Here is an overview of the project's directory structure:
+
+```
+DuckLang/
+├── docs/
+├── lib/
+├── scripts/
+├── src/
+│   ├── interpreter/
+    ├── lexer/
+│   └── parser/
+├── .gitignore
+├── ducklangweb
+├── main.py
+├── requirements.txt
+├── setup.sh
+└── README.md
+```
+
+- `docs/`: Documentation files.
+- `lib/`: Library files.
+- `scripts/`: Utility scripts.
+- `src/`: Contains the source code of the project.
+- `interpreter/`: Interpreter module.
+- `lexer/`: Lexer module.
+- `parser/`: Parser module.
+- `.gitignore`: Specifies files to be ignored by Git.
+- `ducklangweb`: Web interface for DuckLang.
+- `main.py`: Main application script.
+- `requirements.txt`: Python dependencies.
+- `setup.sh`: Setup script.
+- `README.md`: Project documentation.
 
 ## Contribution Guidelines
 
